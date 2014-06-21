@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<jnlp spec="1.0+" codebase="https://raw.githubusercontent.com/codurance/footfall123/master/" href="salt.jnlp">
+   <information>
+      <title>Loyalty Card App</title>
+      <vendor>Codurance Ltd</vendor>
+      <homepage href="https://github.com/codurance/footfall123/" />
+      <description>Proof of Concept for Salt</description>
+   </information>
+   <security>
+      <all-permissions/>
+   </security>
+   <resources>
+      <j2se version="1.6+" />
+      <jar href="loyalty-card-explorer.jar" />
+   </resources>
+   <application-desc main-class="codurance.loyaltycardexplorer.Launcher" />
+</jnlp>
